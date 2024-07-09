@@ -1,0 +1,547 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>TRAVELLER</title>
+    <meta content name="description">
+    <meta content name="keywords">
+
+    <!-- Favicons -->
+    <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+    <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet">
+    <script src="https://kit.fontawesome.com/4c729db828.js"
+      crossorigin="anonymous"></script>
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <!-- Template Main CSS File -->
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/package.css">
+
+    <!-- =======================================================
+  * Template Name: Gp
+  * Updated: May 18 2023 with Bootstrap v5.2.3
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  
+   <style>
+  
+    .i1{
+      width: 30px;
+    }
+    .i2{
+      width: 30px;
+    }
+
+    /* .swiper {
+      width: 100%;
+      height: 100%;
+    } */
+
+    .swiper-slide {
+      min-height: 100vh;
+      background-size: cover !important;
+      background-position: center !important;
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 0;
+    }
+    .swiper-slide::before{
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      height: 100%;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.6); ;
+    }
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .content-slide{
+      text-align: center;
+      width: 7;
+    }
+    /* .content-slide span{
+      font-size: 3rem;
+      display: block;
+      padding-bottom: .5rem;
+      color:#891818;
+    } */
+/* .content-slide h3{
+  font-size: 30px;
+  text-transform: uppercase;
+  color: rgb(21, 143, 250);
+  text-shadow: 0 .5rem 1rem black;
+} */
+
+/* hehhee */
+.swiper-slide-inner {
+  position: relative;
+  min-height: 70vh;
+  width: 100%;
+  height: 600px;
+}
+
+.swiper-slide-inner img {
+  display: block;
+  width: 100%;
+  /* height: 800px; */
+}
+
+.swiper-slide-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  
+}
+
+.swiper-slide-overlay h3 {
+  margin-top: 0;
+}
+
+.swiper-slide-overlay p {
+  /* margin-bottom: 0;
+  font-size: 14px; */
+  margin-bottom: 0;
+  font-size: 14px;
+  text-align: center;
+}
+  </style>
+   
+  </head>
+
+  <body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+      <div class="container d-flex align-items-center justify-content-lg-between">
+  
+        <h1 class="logo me-auto me-lg-0"><a href="index.html">TRAVELL<span>ER</span></a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+  
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto active" href="index.html">Home</a></li>
+            <li><a class="nav-link scrollto" href="about.html">About</a></li>
+            <li><a class="nav-link scrollto" href="service.html">Services</a></li>
+  
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="packet.html"
+                role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Packages
+              </a>
+              <ul class="dropdown-menu">
+  
+                <li><a class="dropdown-item" href="northest.html">Northest</a></li>
+                <li><a class="dropdown-item" href="centerhighland.html">Center Highlands</a></li>
+                <li><a class="dropdown-item" href="southest.html">Southest</a></li>
+              </ul>
+            </li>
+          
+            <li><a class="nav-link scrollto" href="contact.html">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+  
+        <i id="login-btn"><i class="get-started-btn scrollto">Get Started</i></i>
+  
+      </div>
+    </header><!-- End Header -->
+    <!-- ======= Hero Section ======= -->
+   
+   <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <div class="swiper-slide-inner">
+          <img src="./assets/img/image1/sapa.jpg" alt="Hình ảnh slide">
+          <div class="swiper-slide-overlay">
+            <h3>10 great tourist places in Vietnam you can't miss</h3>
+            <p>Let's explore together</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide-inner">
+          <img src="./assets/img/image1/san may.jpg" alt="Hình ảnh slide">
+          <div class="swiper-slide-overlay">
+            <h3>Ta Xua - The ideal place to hunt clouds</h3>
+            <p>Let's explore the food culture as well as the people here</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide-inner">
+          <img src="./assets/img/image1/moc chau2.jpg" alt="Hình ảnh slide">
+          <div class="swiper-slide-overlay">
+            <h3>Moc Chau - where there is a beautiful Ba Phach village like paradise</h3>
+            <p>Let's explore the food culture as well as the people here</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide-inner">
+          <img src="./assets/img/vinhhalong.jpg" alt="Hình ảnh slide">
+          <div class="swiper-slide-overlay">
+            <h3>Vinh Ha Long - "bright spot" of tourism in the North with Ha Long Bay - World Natural Heritage</h3>
+            <p>Let's explore the food culture as well as the people here</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide-inner">
+          <img src="./assets/img/image1/yen bai2.jpg" alt="Hình ảnh slide">
+          <div class="swiper-slide-overlay">
+            <h3>Yen Bai - A poetic and culturally diverse land, promising many interesting things</h3>
+            <p>Let's explore the food culture as well as the people here</p>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide-inner">
+          <img src="./assets/img/bavi.jpg" alt="Hình ảnh slide">
+          <div class="swiper-slide-overlay">
+            <h3>Ba Vi - is an ideal place for people who like luxury style</h3>
+            <p>Let's explore the food culture as well as the people here</p>
+            
+          </div>
+        </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="swiper-slide-inner">
+          <img src="./assets/img/hagiang.jpg" alt="Hình ảnh slide">
+          <div class="swiper-slide-overlay">
+            <h3>Ha Giang - The right place for those who love to explore nature</h3>
+            <p>Let's explore the food culture as well as the people here</p>
+          </div>
+        </div>
+      </div>
+      <!-- Thêm các slide khác nếu cần -->
+    </div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div>
+  </div>
+      <!-- ===========video=================== -->
+    <!-- <div id="tm-video-container">
+      <video autoplay muted loop id="tm-video">
+          <source src="../DoAnCK/assets/img/video/ocean-sea-wave-video.mp4" type="video/mp4">
+      </video>  
+      <i id="tm-video-control-button" class="fas fa-pause"></i>
+</div> -->
+
+      <!-- ======= Portfolio Section ======= -->
+      <section class="package1">
+        <div class="section-title">
+         <h2>Tour</h2>
+         <p>Travel in Northest</p>
+       </div>
+       <div class="box-container">
+ 
+         <div class="box1 ">
+           <img src="./assets/img/image1/sapamay.webp" alt>
+           <div class="content">
+             <h3><i class="fas fa-map-marker-alt"></i>SaPa</h3>
+             <p><a href="#">Sapa offers plenty of interesting things to do and places to see.</a></p>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fa-sharp fa-regular fa-star"></i>
+             </div>
+             <div class="price1">$500 <span>$1000</span></div>
+             <a href="./dangki.html" class="btn1">Booking</a>
+           </div>
+         </div>
+         <div class="box1">
+           <img src="./assets/img/image1/tà xùa.jpg" alt>
+           <div class="content">
+             <h3><i class="fas fa-map-marker-alt"></i>Ta Xua-Son La</h3>
+             <p><a href="#">Ta Xua - Son La: The ideal place to hunt clouds</a></p>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fa-sharp fa-regular fa-star"></i>
+               <i class="fa-sharp fa-regular fa-star"></i>
+             </div>
+             <div class="price1">$900 <span>$1200</span></div>
+             <a href="./dangki.html" class="btn1">Booking</a>
+           </div>
+         </div>
+         <div class="box1">
+           <img src="./assets/img/bavi.jpg" alt>
+           <div class="content">
+             <h3><i class="fas fa-map-marker-alt"></i>Ba Vi</h3>
+             <p><a href="#">Ba Vi National Park - An attractive tourist destination in the Nort</a></p>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fa-sharp fa-regular fa-star"></i>
+             </div>
+             <div class="price1">$600 <span>$800</span></div>
+             <a href="./dangki.html" class="btn1">Booking</a>
+           </div>
+         </div>
+         <div class="box1">
+           <img src="./assets/img/image1/hagiang.jpg" alt>
+           <div class="content">
+             <h3><i class="fas fa-map-marker-alt"></i>Ha Giang</h3>
+             <p><a href="#">Ha Giang tourism - the leading land of the country</a></p>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fa-sharp fa-regular fa-star"></i>
+               <i class="fa-sharp fa-regular fa-star"></i>
+             </div>
+             <div class="price1">$300 <span>$500</span></div>
+             <a href="./dangki.html" class="btn1">Booking</a>
+           </div>
+         </div>
+ <div class="box1">
+           <img src="./assets/img/image1/hanoi.jpg" alt>
+           <div class="content">
+             <h3><i class="fas fa-map-marker-alt"></i>Ha Noi</h3>
+             <p><a href="#"> Hanoi has emerged as a cultural capital that's 100 percent Vietnamese</a></p>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+             </div>
+             <div class="price1">$400 <span>$800</span></div>
+             <a href="./dangki.html" class="btn1">Booking</a>
+           </div>
+         </div>
+         <div class="box1">
+           <img src="./assets/img/image1/dienbienphu.jpeg" alt>
+           <div class="content">
+             <h3><i class="fas fa-map-marker-alt"></i>Dien Bien Phu</h3>
+             <p><a href="#">Dien Bien province is rich in tourism potential, especially in the field of culture – history.</a></p>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fa-sharp fa-regular fa-star"></i>
+             </div>
+             <div class="price1">$900 <span>$1200</span></div>
+             <a href="./dangki.html" class="btn1">Booking</a>
+           </div>
+         </div>
+         <div class="box1">
+           <img src="./assets/img/yenbai.png" alt>
+           <div class="content">
+             <h3><i class="fas fa-map-marker-alt"></i>Yen Bai</h3>
+             <p><a href="./dangki.html">Yen Bai- A poetic and culturally diverse land, promising many interesting things</a></p>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fa-sharp fa-regular fa-star"></i>
+             </div>
+             <div class="price1">$900 <span>$1200</span></div>
+             <a href="./dangki.html" class="btn1">Booking</a>
+           </div>
+         </div>
+         <div class="box1">
+           <img src="./assets/img/image1/mocchau.jpeg" alt>
+           <div class="content">
+             <h3><i class="fas fa-map-marker-alt"></i>Moc Chau</h3>
+             <p><a href="#">Moc Chau - where there is a beautiful Ba Phach village like paradise</a></p>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fa-sharp fa-regular fa-star"></i>
+               <i class="fa-sharp fa-regular fa-star"></i>
+             </div>
+             <div class="price1">$300 <span>$600</span></div>
+             <a href="./dangki.html" class="btn1">Booking</a>
+           </div>
+         </div>
+         <div class="box1">
+           <img src="./assets/img/image1/Vinh hạ long.jpg" alt>
+           <div class="content">
+ <h3><i class="fas fa-map-marker-alt"></i>Ha Long Bay</h3>
+             <p><a href="#">Quang Ninh - "bright spot" of tourism in the North with Ha Long Bay - World Natural Heritage</a></p>
+             <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fa-sharp fa-regular fa-star"></i>
+             </div>
+             <div class="price1">$900 <span>$1200</span></div>
+             <a href="./dangki.html" class="btn1">Booking</a>
+           </div>
+         </div>
+ 
+       </div>
+     </section>
+     <!-- the end tour -->
+      <!-- End Portfolio Section -->
+
+      <!-- ======= Counts Section ======= -->
+
+      <!-- ======= Footer ======= -->
+      <footer id="footer">
+        <div class="footer-top">
+          <div class="container">
+            <div class="row">
+    
+              <div class="col-lg-3 col-md-6">
+                <div class="footer-info">
+                  <h3>TRAVELL<span>ER</span></h3>
+                  <p>
+                    243 Nguyen Van Cu <br>
+                    Da Nang, VietNam<br><br>
+                    <strong>Phone:</strong> +0123 456 789<br>
+                    <strong>Email:</strong> Traveller@gmail.com<br>
+                  </p>
+                  <div class="social-links mt-3">
+                    <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+                    <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+    
+              <div class="col-lg-2 col-md-6 footer-links">
+                <h4>Useful Links</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="index.html">Home</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="about.html">About</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="service.html">Services</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="index.html">Packages</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="contact.html">Contact</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-lg-3 col-md-6 footer-links">
+                <h4>Our Services</h4>
+                <ul>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Entertainment</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Vehicle</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Destination</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Festival</a></li>
+                  <li><i class="bx bx-chevron-right"></i> <a href="#">Relax</a></li>
+                </ul>
+              </div>
+    
+              <div class="col-lg-4 col-md-6 footer-newsletter">
+                <h4>Our Newsletter</h4>
+                <p>You can look up or search for the information you want here</p>
+                <form action="" method="post">
+                  <input type="email" name="email" class="i1"><input type="submit" value="Subscribe" class="i2">
+                </form>
+    
+              </div>
+    
+            </div>
+          </div>
+        </div>
+    
+        <div class="container">
+          <div class="copyright">
+            &copy; Copyright <strong><span>TRAVELLER</span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+            
+            Designed by Thuy Linh - Thu Hang
+          </div>
+        </div>
+      </footer>
+
+      <div id="preloader"></div>
+      <a href="#"
+        class="back-to-top d-flex align-items-center justify-content-center"><i
+          class="bi bi-arrow-up-short"></i></a>
+
+         
+          <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+          <script>
+           
+            var mySwiper = new Swiper('.swiper-container', {
+              autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+  // Cấu hình các tùy chọn cho swiper
+  
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+});
+
+          </script>
+    
+      <!-- Vendor JS Files -->
+      <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+
+      <!-- Template Main JS File -->
+      <script src="assets/js/main.js"></script>
+      <!-- <script src="./assets/js/slider.js"></script> -->
+
+     
+    </body>
+
+  </html>
